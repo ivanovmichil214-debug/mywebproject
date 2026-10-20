@@ -1,0 +1,99 @@
+/* Описание стиля всей страницы */
+div#content {
+    width: 80%;
+    border: none;
+    margin: auto;
+    /* Новые стили из Шага 2 */
+    font-family: Verdana;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center; 
+}
+
+/* Описание стиля заголовка и подвала */
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #007196;
+    clear: left;
+    text-align: center;
+}
+
+/* Логотип */
+div #logo img {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+/* Основной блок */
+#main {
+    padding: 1em;
+    /* Новые стили из Шага 2 */
+    color: #008080;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* Область меню */
+nav {
+    height: 40px;
+    border: solid #333;
+    padding: 1em;
+    text-align: center;
+    /* Новые стили из Шага 2 */
+    list-style-type: none;
+    background-color: #66CDAA;
+}
+
+/* Отдельные ссылки в меню */
+nav a {
+    /* Новые стили из Шага 2 */
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: solid white 2px;
+}
+
+/* Стили для таблиц (туры и форма) из прошлого задания */
+table#tours, table#form {
+    width: 80%;
+    margin: auto;
+}
+table#tours td, table#form td {
+    text-align: left;
+    border: 2px solid red;
+}
+
+/* --- НОВЫЕ СТИЛИ ИЗ ШАГА 4 --- */
+
+/* Для блока-обертки */
+#tours {
+    text-align: left;
+}
+
+/* Для блоков каждого из направлений */
+.tour {
+    width: 30%;
+    border: #66CDAA solid 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+}
+
+/* Для картинок внутри блоков */
+.tour img {
+    width: 100%; /* Исправленная опечатка из учебника */
+}
+
+/* Для ссылок внутри блоков (в виде кнопок) */
+div.tour a {
+    background-color: #66CDAA;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
